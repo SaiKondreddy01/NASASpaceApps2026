@@ -1,0 +1,64 @@
+{
+  "name": "Epsilon Indi B",
+  "ra": 331.04414658852124,
+  "dec": -56.78284419511611,
+  "method": "fixed coordinates (no PM available)",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W17_4B_0077_3|SPHEREx-D1|60790.262463",
+      "mjd": 60790.262463,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "x_pix": 13.5,
+      "y_pix": 13.5000000000095,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W40_2B_0659_1|SPHEREx-D1|60953.279316",
+      "mjd": 60953.279316,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "x_pix": 13.5,
+      "y_pix": 13.5000000000095,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W41_2B_0200_1|SPHEREx-D1|60958.373145",
+      "mjd": 60958.373145,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "x_pix": 13.5,
+      "y_pix": 13.5000000000095,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W43_1A_0019_1|SPHEREx-D1|60968.08586",
+      "mjd": 60968.08586,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "x_pix": 13.5,
+      "y_pix": 13.5000000000095,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W16_2A_0434_1|SPHEREx-D1|61148.84479",
+      "mjd": 61148.84479,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "x_pix": 13.5,
+      "y_pix": 13.5000000000095,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W18_2A_0819_1|SPHEREx-D1|61163.717647",
+      "mjd": 61163.717647,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "x_pix": 13.5,
+      "y_pix": 13.5000000000095,
+      "note": "fixed coordinates (no PM available)"
+    }
+  ],
+  "source": "cached-demo"
+}

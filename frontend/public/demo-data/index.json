@@ -1,0 +1,44 @@
+{
+  "targets": [
+    {
+      "id": "barnards_star",
+      "name": "Barnard's Star",
+      "n_frames": 6,
+      "ra": 269.4520769586187,
+      "dec": 4.69336496657667,
+      "fov_deg": 0.05
+    },
+    {
+      "id": "epsilon_indi_b",
+      "name": "Epsilon Indi B",
+      "n_frames": 6,
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "fov_deg": 0.05
+    },
+    {
+      "id": "r_draconis",
+      "name": "R Draconis",
+      "n_frames": 6,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "fov_deg": 0.05
+    },
+    {
+      "id": "rw_aurigae",
+      "name": "RW Aurigae",
+      "n_frames": 6,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "fov_deg": 0.05
+    },
+    {
+      "id": "wise0855",
+      "name": "WISE 0855",
+      "n_frames": 3,
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "fov_deg": 0.15
+    }
+  ]
+}

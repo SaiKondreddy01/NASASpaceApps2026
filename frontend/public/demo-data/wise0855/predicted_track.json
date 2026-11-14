@@ -1,0 +1,37 @@
+{
+  "name": "WISE 0855",
+  "ra": 133.79512917,
+  "dec": -7.24514722,
+  "method": "fixed coordinates (no PM available)",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+      "mjd": 60801.514177,
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "x_pix": 43.0,
+      "y_pix": 42.99999999999795,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+      "mjd": 60979.722677,
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "x_pix": 43.0,
+      "y_pix": 42.99999999999795,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+      "mjd": 60982.506585,
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "x_pix": 43.0,
+      "y_pix": 42.99999999999795,
+      "note": "fixed coordinates (no PM available)"
+    }
+  ],
+  "source": "cached-demo"
+}

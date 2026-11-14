@@ -1,0 +1,1317 @@
+{
+  "target_id": "wise0855",
+  "ra": 133.79512917,
+  "dec": -7.24514722,
+  "default": {
+    "ra": 133.79512917,
+    "dec": -7.24514722,
+    "radius_pix": 1.5,
+    "metric": "brightness_snr",
+    "reference": "median_others",
+    "aperture_x_pix": 14.0,
+    "aperture_y_pix": 14.0,
+    "frames": [
+      {
+        "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+        "mjd": 60801.514177,
+        "wavelength_um": 0.9936673939695082,
+        "detector": 1,
+        "score": 0.11730261333306467,
+        "score_err": 1.0,
+        "score_unit": "dimensionless (brightness S/N)",
+        "brightness_snr": 0.11730261333306467,
+        "brightness_snr_err": 1.0,
+        "position_shift_pix": 0.21585999918522106,
+        "position_shift_pix_err": 0.7911972083691762,
+        "position_shift_arcsec": 1.3275389949891097,
+        "position_shift_arcsec_err": 4.865862831470434,
+        "centroid_x": 14.029767784938711,
+        "centroid_y": 14.076121051457296,
+        "masked_fraction": 0.0,
+        "n_aperture_pixels": 9,
+        "n_masked": 0,
+        "wavelength_mismatched": false,
+        "status": "ok",
+        "status_reason": "",
+        "is_synthetic": false,
+        "notes": [
+          "reference=median of wavelength-matched others",
+          "uncertainty from annulus scatter (no VARIANCE extension)"
+        ]
+      },
+      {
+        "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+        "mjd": 60979.722677,
+        "wavelength_um": 0.861058653989041,
+        "detector": 1,
+        "score": -0.043770144067780827,
+        "score_err": 1.0,
+        "score_unit": "dimensionless (brightness S/N)",
+        "brightness_snr": -0.043770144067780827,
+        "brightness_snr_err": 1.0,
+        "position_shift_pix": 0.0,
+        "position_shift_pix_err": 0.8425212778792489,
+        "position_shift_arcsec": 0.0,
+        "position_shift_arcsec_err": 5.181505858957381,
+        "centroid_x": 13.852978012679925,
+        "centroid_y": 14.199979501604753,
+        "masked_fraction": 0.0,
+        "n_aperture_pixels": 9,
+        "n_masked": 0,
+        "wavelength_mismatched": false,
+        "status": "ok",
+        "status_reason": "",
+        "is_synthetic": false,
+        "notes": [
+          "reference=median of wavelength-matched others",
+          "uncertainty from annulus scatter (no VARIANCE extension)"
+        ]
+      },
+      {
+        "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+        "mjd": 60982.506585,
+        "wavelength_um": 0.7834402194336176,
+        "detector": 1,
+        "score": 0.4137834812436067,
+        "score_err": 1.0,
+        "score_unit": "dimensionless (brightness S/N)",
+        "brightness_snr": 0.4137834812436067,
+        "brightness_snr_err": 1.0,
+        "position_shift_pix": 0.36331137470834945,
+        "position_shift_pix_err": 0.9419662361995899,
+        "position_shift_arcsec": 2.2343649544563493,
+        "position_shift_arcsec_err": 5.793092352627478,
+        "centroid_x": 14.210220566057044,
+        "centroid_y": 14.133851496576122,
+        "masked_fraction": 0.0,
+        "n_aperture_pixels": 9,
+        "n_masked": 0,
+        "wavelength_mismatched": false,
+        "status": "ok",
+        "status_reason": "",
+        "is_synthetic": false,
+        "notes": [
+          "reference=median of wavelength-matched others",
+          "uncertainty from annulus scatter (no VARIANCE extension)"
+        ]
+      }
+    ],
+    "motion": {
+      "status": "ok",
+      "n_points": 3,
+      "total_displacement_arcsec": 1.1651939140758745,
+      "total_displacement_arcsec_err": 7.565483467747216,
+      "pm_arcsec_yr": 2.3514084475642765,
+      "pm_arcsec_yr_err": 15.267451641367114,
+      "dt_yr": 0.49553020670774955,
+      "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+      "trail": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "x": 14.029767784938711,
+          "y": 14.076121051457296,
+          "score": 0.11730261333306467
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "x": 13.852978012679925,
+          "y": 14.199979501604753,
+          "score": -0.043770144067780827
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "x": 14.210220566057044,
+          "y": 14.133851496576122,
+          "score": 0.4137834812436067
+        }
+      ]
+    },
+    "is_synthetic": false,
+    "source": "cached-demo",
+    "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+  },
+  "by_key": {
+    "brightness_snr|median_others|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "brightness_snr",
+      "reference": "median_others",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 0.11730261333306467,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": 0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": -0.043770144067780827,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": -0.043770144067780827,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 0.4137834812436067,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": 0.4137834812436067,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.36331137470834945,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 2.2343649544563493,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 0.11730261333306467
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": -0.043770144067780827
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 0.4137834812436067
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "brightness_snr|first_epoch|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "brightness_snr",
+      "reference": "first_epoch",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": null,
+          "score_err": null,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": null,
+          "brightness_snr_err": null,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "not_computed",
+          "status_reason": "zero scatter in annulus",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "zero scatter in annulus"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": -0.11730261333306467,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": -0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 0.6842411455425644,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": 0.6842411455425644,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.18946242505298772,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 1.1651939140758745,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": null
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": -0.11730261333306467
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 0.6842411455425644
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "brightness_snr|previous_epoch|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "brightness_snr",
+      "reference": "previous_epoch",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": null,
+          "score_err": null,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": null,
+          "brightness_snr_err": null,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "not_computed",
+          "status_reason": "zero scatter in annulus",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch (self for epoch 0)",
+            "zero scatter in annulus"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": -0.11730261333306467,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": -0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 0.4137834812436067,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (brightness S/N)",
+          "brightness_snr": 0.4137834812436067,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.18946242505298772,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 1.1651939140758745,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": null
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": -0.11730261333306467
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 0.4137834812436067
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "position_shift|median_others|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "position_shift",
+      "reference": "median_others",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 1.3275389949891097,
+          "score_err": 4.865862831470434,
+          "score_unit": "arcsec",
+          "brightness_snr": 0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": 0.0,
+          "score_err": 5.181505858957381,
+          "score_unit": "arcsec",
+          "brightness_snr": -0.043770144067780827,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 2.2343649544563493,
+          "score_err": 5.793092352627478,
+          "score_unit": "arcsec",
+          "brightness_snr": 0.4137834812436067,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.36331137470834945,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 2.2343649544563493,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 1.3275389949891097
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": 0.0
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 2.2343649544563493
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "position_shift|first_epoch|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "position_shift",
+      "reference": "first_epoch",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 0.0,
+          "score_err": 4.865862831470434,
+          "score_unit": "arcsec",
+          "brightness_snr": null,
+          "brightness_snr_err": null,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "zero scatter in annulus"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": 1.3275389949891097,
+          "score_err": 5.181505858957381,
+          "score_unit": "arcsec",
+          "brightness_snr": -0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 1.1651939140758745,
+          "score_err": 5.793092352627478,
+          "score_unit": "arcsec",
+          "brightness_snr": 0.6842411455425644,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.18946242505298772,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 1.1651939140758745,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 0.0
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": 1.3275389949891097
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 1.1651939140758745
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "position_shift|previous_epoch|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "position_shift",
+      "reference": "previous_epoch",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 0.0,
+          "score_err": 4.865862831470434,
+          "score_unit": "arcsec",
+          "brightness_snr": null,
+          "brightness_snr_err": null,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch (self for epoch 0)",
+            "zero scatter in annulus"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": 1.3275389949891097,
+          "score_err": 5.181505858957381,
+          "score_unit": "arcsec",
+          "brightness_snr": -0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 1.1651939140758745,
+          "score_err": 5.793092352627478,
+          "score_unit": "arcsec",
+          "brightness_snr": 0.4137834812436067,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.18946242505298772,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 1.1651939140758745,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 0.0
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": 1.3275389949891097
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 1.1651939140758745
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "combined|median_others|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "combined",
+      "reference": "median_others",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 0.29697559077914437,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": 0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": 0.043770144067780827,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": -0.043770144067780827,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 0.5656652390129123,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": 0.4137834812436067,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.36331137470834945,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 2.2343649544563493,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=median of wavelength-matched others",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 0.29697559077914437
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": 0.043770144067780827
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 0.5656652390129123
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "combined|first_epoch|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "combined",
+      "reference": "first_epoch",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 0.0,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": null,
+          "brightness_snr_err": null,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "zero scatter in annulus"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": 0.28178364264062095,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": -0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 0.7131908953292312,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": 0.6842411455425644,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.18946242505298772,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 1.1651939140758745,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=first_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 0.0
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": 0.28178364264062095
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 0.7131908953292312
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    },
+    "combined|previous_epoch|1.5": {
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "radius_pix": 1.5,
+      "metric": "combined",
+      "reference": "previous_epoch",
+      "aperture_x_pix": 14.0,
+      "aperture_y_pix": 14.0,
+      "frames": [
+        {
+          "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+          "mjd": 60801.514177,
+          "wavelength_um": 0.9936673939695082,
+          "detector": 1,
+          "score": 0.0,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": null,
+          "brightness_snr_err": null,
+          "position_shift_pix": 0.0,
+          "position_shift_pix_err": 0.7911972083691762,
+          "position_shift_arcsec": 0.0,
+          "position_shift_arcsec_err": 4.865862831470434,
+          "centroid_x": 14.029767784938711,
+          "centroid_y": 14.076121051457296,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch (self for epoch 0)",
+            "zero scatter in annulus"
+          ]
+        },
+        {
+          "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+          "mjd": 60979.722677,
+          "wavelength_um": 0.861058653989041,
+          "detector": 1,
+          "score": 0.28178364264062095,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": -0.11730261333306467,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.21585999918522106,
+          "position_shift_pix_err": 0.8425212778792489,
+          "position_shift_arcsec": 1.3275389949891097,
+          "position_shift_arcsec_err": 5.181505858957381,
+          "centroid_x": 13.852978012679925,
+          "centroid_y": 14.199979501604753,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        },
+        {
+          "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+          "mjd": 60982.506585,
+          "wavelength_um": 0.7834402194336176,
+          "detector": 1,
+          "score": 0.4600783381959943,
+          "score_err": 1.0,
+          "score_unit": "dimensionless (hypot of brightness S/N and shift S/N)",
+          "brightness_snr": 0.4137834812436067,
+          "brightness_snr_err": 1.0,
+          "position_shift_pix": 0.18946242505298772,
+          "position_shift_pix_err": 0.9419662361995899,
+          "position_shift_arcsec": 1.1651939140758745,
+          "position_shift_arcsec_err": 5.793092352627478,
+          "centroid_x": 14.210220566057044,
+          "centroid_y": 14.133851496576122,
+          "masked_fraction": 0.0,
+          "n_aperture_pixels": 9,
+          "n_masked": 0,
+          "wavelength_mismatched": false,
+          "status": "ok",
+          "status_reason": "",
+          "is_synthetic": false,
+          "notes": [
+            "reference=previous_epoch",
+            "uncertainty from annulus scatter (no VARIANCE extension)"
+          ]
+        }
+      ],
+      "motion": {
+        "status": "ok",
+        "n_points": 3,
+        "total_displacement_arcsec": 1.1651939140758745,
+        "total_displacement_arcsec_err": 7.565483467747216,
+        "pm_arcsec_yr": 2.3514084475642765,
+        "pm_arcsec_yr_err": 15.267451641367114,
+        "dt_yr": 0.49553020670774955,
+        "uncertainty_note": "endpoint centroid \u03c3 propagated; pixel scale 6.15\u2033 (SPHEREx Spectral Image)",
+        "trail": [
+          {
+            "epoch_id": "2025W19_1B_0241_1|SPHEREx-D1|60801.514177",
+            "mjd": 60801.514177,
+            "x": 14.029767784938711,
+            "y": 14.076121051457296,
+            "score": 0.0
+          },
+          {
+            "epoch_id": "2025W44_2B_0305_1|SPHEREx-D1|60979.722677",
+            "mjd": 60979.722677,
+            "x": 13.852978012679925,
+            "y": 14.199979501604753,
+            "score": 0.28178364264062095
+          },
+          {
+            "epoch_id": "2025W45_1A_0110_1|SPHEREx-D1|60982.506585",
+            "mjd": 60982.506585,
+            "x": 14.210220566057044,
+            "y": 14.133851496576122,
+            "score": 0.4600783381959943
+          }
+        ]
+      },
+      "is_synthetic": false,
+      "source": "cached-demo",
+      "note": "Precomputed from demo float bins; VARIANCE not packed \u2014 brightness S/N uses annulus scatter when needed. Candidates only \u2014 not a discovery."
+    }
+  }
+}

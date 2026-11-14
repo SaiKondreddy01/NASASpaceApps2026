@@ -1,0 +1,117 @@
+[
+  {
+    "target_id": "barnards_star",
+    "name": "Barnard's Star",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.05,
+    "n_frames": 6,
+    "mjd_span": [
+      60914.21253,
+      61285.257036
+    ],
+    "pm_citation": "Gaia DR3 source 4472832130942575872 (pmra=\u2212801.551 mas/yr, pmdec=+10362.394 mas/yr; epoch J2016.0)",
+    "pm_ra_cosdec_arcsec_yr": -0.801551,
+    "pm_dec_arcsec_yr": 10.362394,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_arcsec_first_to_last": 10.56,
+    "predicted_shift_pix_first_to_last": 1.72,
+    "visibility": "Bright M dwarf; should be visible on D1. Predicted hop 1.7 px (10.6\") over cached epoch span \u2014 may be subtle on 29\u00d729 / 0.05\u00b0 FOV; use FOV\u22650.2\u00b0 fixed_sky after re-precache.",
+    "image_shape": [
+      29,
+      29
+    ],
+    "irsa_reprecache": "blocked \u2014 IRSA SIA read timeout 2026-11-14"
+  },
+  {
+    "target_id": "epsilon_indi_b",
+    "name": "Epsilon Indi B",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.05,
+    "n_frames": 6,
+    "mjd_span": [
+      60790.262463,
+      61163.717647
+    ],
+    "pm_citation": "no proper motion available",
+    "pm_ra_cosdec_arcsec_yr": 0.0,
+    "pm_dec_arcsec_yr": 0.0,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_arcsec_first_to_last": 0.0,
+    "predicted_shift_pix_first_to_last": 0.0,
+    "visibility": "LIKELY NOT DETECTABLE on cached D1 (object too cold/red for 0.75\u20131.1 \u00b5m). Default live detector is D5; IRSA re-precache timed out 2026-11-14 \u2014 demo still D1 until archive is reachable.",
+    "image_shape": [
+      29,
+      29
+    ],
+    "irsa_reprecache": "blocked \u2014 IRSA SIA read timeout 2026-11-14"
+  },
+  {
+    "target_id": "r_draconis",
+    "name": "R Draconis",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.05,
+    "n_frames": 6,
+    "mjd_span": [
+      60832.473887,
+      61287.152306
+    ],
+    "pm_citation": "no proper motion available",
+    "pm_ra_cosdec_arcsec_yr": 0.0,
+    "pm_dec_arcsec_yr": 0.0,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_arcsec_first_to_last": 0.0,
+    "predicted_shift_pix_first_to_last": 0.0,
+    "visibility": "Variables / not high-PM movers; blink shows wavelength/visit changes more than sky motion.",
+    "image_shape": [
+      29,
+      29
+    ],
+    "irsa_reprecache": "blocked \u2014 IRSA SIA read timeout 2026-11-14"
+  },
+  {
+    "target_id": "rw_aurigae",
+    "name": "RW Aurigae",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.05,
+    "n_frames": 6,
+    "mjd_span": [
+      60919.419647,
+      61292.021872
+    ],
+    "pm_citation": "no proper motion available",
+    "pm_ra_cosdec_arcsec_yr": 0.0,
+    "pm_dec_arcsec_yr": 0.0,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_arcsec_first_to_last": 0.0,
+    "predicted_shift_pix_first_to_last": 0.0,
+    "visibility": "Variables / not high-PM movers; blink shows wavelength/visit changes more than sky motion.",
+    "image_shape": [
+      29,
+      29
+    ],
+    "irsa_reprecache": "blocked \u2014 IRSA SIA read timeout 2026-11-14"
+  },
+  {
+    "target_id": "wise0855",
+    "name": "WISE 0855",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.15,
+    "n_frames": 3,
+    "mjd_span": [
+      60801.514177,
+      60982.506585
+    ],
+    "pm_citation": "Luhman 2014, ApJ 786 L18 (arXiv:1404.6501) Table 1",
+    "pm_ra_cosdec_arcsec_yr": -8.06,
+    "pm_dec_arcsec_yr": 0.7,
+    "pm_uncertainty": "\u03c3_\u03bc\u03b1=0.09\"/yr, \u03c3_\u03bc\u03b4=0.07\"/yr",
+    "predicted_shift_arcsec_first_to_last": 4.01,
+    "predicted_shift_pix_first_to_last": 0.65,
+    "visibility": "LIKELY NOT DETECTABLE on cached D1 (object too cold/red for 0.75\u20131.1 \u00b5m). Default live detector is D5; IRSA re-precache timed out 2026-11-14 \u2014 demo still D1 until archive is reachable.",
+    "image_shape": [
+      88,
+      88
+    ],
+    "irsa_reprecache": "blocked \u2014 IRSA SIA read timeout 2026-11-14"
+  }
+]

@@ -1,0 +1,369 @@
+{
+  "source": "cached-demo",
+  "pixel_scale_arcsec": 6.15,
+  "motion_fit_self_test": {
+    "is_synthetic": true,
+    "truth_pm_ra": 800.0,
+    "truth_pm_dec": -400.0,
+    "fit_pm_ra": 799.864823507289,
+    "fit_pm_dec": -400.00000000000387,
+    "fit_pm_ra_err": 1.7648509856835795,
+    "fit_pm_dec_err": 1.7648501374939745,
+    "ok": true
+  },
+  "field_validation": {
+    "status": "measured",
+    "note": "Measured on cached demo cutouts; misses are first-class.",
+    "known_targets_considered": [
+      {
+        "id": "barnards_star",
+        "name": "Barnard's Star"
+      },
+      {
+        "id": "epsilon_indi_b",
+        "name": "Epsilon Indi B"
+      },
+      {
+        "id": "r_draconis",
+        "name": "R Draconis"
+      },
+      {
+        "id": "rw_aurigae",
+        "name": "RW Aurigae"
+      },
+      {
+        "id": "wise0855",
+        "name": "WISE 0855"
+      }
+    ],
+    "per_target": [
+      {
+        "target_id": "barnards_star",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 10,
+        "n_candidate_class": 3,
+        "n_stationary_class": 7,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 0,
+        "n_missed": 1,
+        "recovery_rate": 0.0,
+        "matched": [],
+        "missed": [
+          "barnards_star"
+        ],
+        "false_candidate_ids": [
+          "trk_001",
+          "trk_002",
+          "trk_003",
+          "trk_004",
+          "trk_005",
+          "trk_006",
+          "trk_007",
+          "trk_008",
+          "trk_009",
+          "trk_010"
+        ],
+        "n_false_candidates": 10,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      },
+      {
+        "target_id": "epsilon_indi_b",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 2,
+        "n_candidate_class": 0,
+        "n_stationary_class": 2,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 0,
+        "n_missed": 1,
+        "recovery_rate": 0.0,
+        "matched": [],
+        "missed": [
+          "epsilon_indi_b"
+        ],
+        "false_candidate_ids": [
+          "trk_001",
+          "trk_002"
+        ],
+        "n_false_candidates": 2,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      },
+      {
+        "target_id": "r_draconis",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 0,
+        "n_candidate_class": 0,
+        "n_stationary_class": 0,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 0,
+        "n_missed": 1,
+        "recovery_rate": 0.0,
+        "matched": [],
+        "missed": [
+          "r_draconis"
+        ],
+        "false_candidate_ids": [],
+        "n_false_candidates": 0,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      },
+      {
+        "target_id": "rw_aurigae",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 6,
+        "n_candidate_class": 1,
+        "n_stationary_class": 5,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 1,
+        "n_missed": 0,
+        "recovery_rate": 1.0,
+        "matched": [
+          {
+            "known_id": "rw_aurigae",
+            "track_id": "trk_002"
+          }
+        ],
+        "missed": [],
+        "false_candidate_ids": [
+          "trk_001",
+          "trk_003",
+          "trk_004",
+          "trk_005",
+          "trk_006"
+        ],
+        "n_false_candidates": 5,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      },
+      {
+        "target_id": "wise0855",
+        "status": "not computed yet",
+        "reason": "WISE 0855 proper motion not verified in this run (TODO(VERIFY): cite SIMBAD or published PM + epoch)",
+        "n_frames": 3,
+        "n_epochs": 3,
+        "match_radius_arcsec": 12.3
+      }
+    ],
+    "n_known": 4,
+    "n_recovered": 1,
+    "n_missed": 3,
+    "n_false_candidates": 17,
+    "recovery_rate": 0.25,
+    "match_radius_arcsec": 12.3,
+    "sample_size": {
+      "n_targets_attempted": 5,
+      "n_measured": 4,
+      "n_frames_total": 27
+    },
+    "method": "DAOStarFinder detect + greedy nearest-neighbor link on cached demo PNG cutouts; match radius = 2\u00d76.15\" SPHEREx pixels",
+    "misses": [
+      {
+        "target_id": "barnards_star",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 10,
+        "n_candidate_class": 3,
+        "n_stationary_class": 7,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 0,
+        "n_missed": 1,
+        "recovery_rate": 0.0,
+        "matched": [],
+        "missed": [
+          "barnards_star"
+        ],
+        "false_candidate_ids": [
+          "trk_001",
+          "trk_002",
+          "trk_003",
+          "trk_004",
+          "trk_005",
+          "trk_006",
+          "trk_007",
+          "trk_008",
+          "trk_009",
+          "trk_010"
+        ],
+        "n_false_candidates": 10,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      },
+      {
+        "target_id": "epsilon_indi_b",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 2,
+        "n_candidate_class": 0,
+        "n_stationary_class": 2,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 0,
+        "n_missed": 1,
+        "recovery_rate": 0.0,
+        "matched": [],
+        "missed": [
+          "epsilon_indi_b"
+        ],
+        "false_candidate_ids": [
+          "trk_001",
+          "trk_002"
+        ],
+        "n_false_candidates": 2,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      },
+      {
+        "target_id": "r_draconis",
+        "status": "measured",
+        "method": "DAOStarFinder detect + greedy link on cached demo PNG cutouts; match to PM-propagated catalog position",
+        "pm_source": "manifest center (no SIMBAD PM)",
+        "pm_uncertainty": "no uncertainty available",
+        "pm_ra_arcsec_yr": 0.0,
+        "pm_dec_arcsec_yr": 0.0,
+        "n_frames": 6,
+        "n_epochs": 6,
+        "n_tracks_found": 0,
+        "n_candidate_class": 0,
+        "n_stationary_class": 0,
+        "match_radius_arcsec": 12.3,
+        "n_known": 1,
+        "n_recovered": 0,
+        "n_missed": 1,
+        "recovery_rate": 0.0,
+        "matched": [],
+        "missed": [
+          "r_draconis"
+        ],
+        "false_candidate_ids": [],
+        "n_false_candidates": 0,
+        "uncertainty_note": "Match radius is 2 native SPHEREx pixels (2\u00d76.15\")."
+      }
+    ],
+    "misses_explained": "Coarse 6.15\" pixels, wavelength mismatch between LVF visits, 8-bit PNG stretch loss, and sparse epochs can hide motion of ~1 pixel."
+  },
+  "synthetic": {
+    "is_synthetic": true,
+    "bins": [
+      {
+        "brightness_amp": 40.0,
+        "dx_pix_per_epoch": 2.0,
+        "dy_pix_per_epoch": 0.5,
+        "speed_arcsec_yr": 62.141876823231215,
+        "n_epochs": 6,
+        "n_tracks": 6,
+        "recovered": true,
+        "is_synthetic": true,
+        "seed": 1000,
+        "brightness": "bright"
+      },
+      {
+        "brightness_amp": 15.0,
+        "dx_pix_per_epoch": 1.2,
+        "dy_pix_per_epoch": 0.3,
+        "speed_arcsec_yr": 37.285126093938736,
+        "n_epochs": 6,
+        "n_tracks": 6,
+        "recovered": true,
+        "is_synthetic": true,
+        "seed": 1001,
+        "brightness": "mid"
+      },
+      {
+        "brightness_amp": 6.0,
+        "dx_pix_per_epoch": 0.8,
+        "dy_pix_per_epoch": 0.2,
+        "speed_arcsec_yr": 24.85675072929249,
+        "n_epochs": 6,
+        "n_tracks": 5,
+        "recovered": true,
+        "is_synthetic": true,
+        "seed": 1002,
+        "brightness": "faint"
+      },
+      {
+        "brightness_amp": 25.0,
+        "dx_pix_per_epoch": 0.3,
+        "dy_pix_per_epoch": 0.1,
+        "speed_arcsec_yr": 9.53212877293684,
+        "n_epochs": 6,
+        "n_tracks": 5,
+        "recovered": true,
+        "is_synthetic": true,
+        "seed": 1003,
+        "brightness": "slow"
+      },
+      {
+        "brightness_amp": 25.0,
+        "dx_pix_per_epoch": 3.0,
+        "dy_pix_per_epoch": 1.0,
+        "speed_arcsec_yr": 95.3212877293684,
+        "n_epochs": 6,
+        "n_tracks": 6,
+        "recovered": true,
+        "is_synthetic": true,
+        "seed": 1004,
+        "brightness": "fast"
+      }
+    ],
+    "note": "Injected movers at real SPHEREx epochs; labeled is_synthetic.",
+    "status": "measured",
+    "badge": "SIMULATED / TEST DATA",
+    "background_target": "rw_aurigae",
+    "method": "Inject Gaussian PSF movers into real cached RW Aurigae PNG backgrounds; run DAOStarFinder + link; recover if track mean within 2.5 px of truth",
+    "sample_size": {
+      "n_bins": 5,
+      "n_recovered": 5
+    },
+    "recovery_rate": 1.0,
+    "pixel_scale_arcsec": 6.15
+  },
+  "limits": [
+    "Too faint relative to SPHEREx depth / zodiacal background",
+    "Too slow: sub-pixel motion between visits",
+    "Crowded fields / blending",
+    "Bad / flagged pixels (TRANSIENT, HALO, DICHROIC, \u2026)",
+    "Wavelength mismatch across LVF visits mistaken for variability",
+    "Demo PNGs are 8-bit stretched \u2014 detection here underestimates float archive S/N"
+  ],
+  "disclaimer": "SkyFlip does not claim to discover Planet X or any new object."
+}

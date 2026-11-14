@@ -1,0 +1,64 @@
+{
+  "name": "RW Aurigae",
+  "ra": 76.95652603458,
+  "dec": 30.40143817389,
+  "method": "fixed coordinates (no PM available)",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W36_1A_0095_1|SPHEREx-D1|60919.419647",
+      "mjd": 60919.419647,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W36_1A_0606_1|SPHEREx-D1|60921.723883",
+      "mjd": 60921.723883,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W10_1A_0445_1|SPHEREx-D1|61103.329607",
+      "mjd": 61103.329607,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W10_2B_0591_3|SPHEREx-D1|61107.675603",
+      "mjd": 61107.675603,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W11_1A_0645_1|SPHEREx-D1|61111.002087",
+      "mjd": 61111.002087,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W37_1A_0365_1|SPHEREx-D1|61292.021872",
+      "mjd": 61292.021872,
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    }
+  ],
+  "source": "cached-demo"
+}

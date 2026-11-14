@@ -1,0 +1,64 @@
+{
+  "name": "R Draconis",
+  "ra": 248.16761083295,
+  "dec": 66.75497941722,
+  "method": "fixed coordinates (no PM available)",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W23_2B_0206_1|SPHEREx-D1|60832.473887",
+      "mjd": 60832.473887,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W37_2A_0840_1|SPHEREx-D1|60932.944022",
+      "mjd": 60932.944022,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2025W44_1A_0098_1|SPHEREx-D1|60975.459535",
+      "mjd": 60975.459535,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W29_1A_0430_1|SPHEREx-D1|61236.241151",
+      "mjd": 61236.241151,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W33_1A_0588_1|SPHEREx-D1|61265.021278",
+      "mjd": 61265.021278,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    },
+    {
+      "epoch_id": "2026W36_2A_0165_3|SPHEREx-D1|61287.152306",
+      "mjd": 61287.152306,
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "x_pix": 13.5,
+      "y_pix": 13.499999999997947,
+      "note": "fixed coordinates (no PM available)"
+    }
+  ],
+  "source": "cached-demo"
+}
