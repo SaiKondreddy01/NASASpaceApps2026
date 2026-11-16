@@ -2,6 +2,9 @@
 
 **The blink comparator that found Pluto, rebuilt for everyone, with proof built in that it works.**
 
+Backend Built By Aarav Bhandula
+Frontend Built By Harrison Chang
+
 Public web tool for NASA Space Apps Challenge 2026 — **Planet X and SPHEREx**. Enter sky coordinates, blink SPHEREx visits, spot movers, hear a spectrum sonification, and check a validation scoreboard.
 
 > **We do not claim to discover Planet X or any new object.** Detections are **candidates**.
